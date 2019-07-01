@@ -3,10 +3,34 @@
 
 <head>
 
+    <link href="css/flexboxgrid.min.css" rel="stylesheet" />
+    <title>Improving Developing Survey Page</title>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
 </head>
 
 <body>
+    <div>
+        <h1 id="title">Improving Developing Survey</h1>
+    </div>
+    <div id="form-outer">
+            <div id="description">
+                    <p>Welcome and thank you for coming! Please fill out the fields below to help us improve Software Developing</p>
+                </div>
+               
+                <form id="survey-form">
+                    <div class="row">
+                        <div class="col-xs-6"><label id="name" for="name">*Name:</label></div>
+                        <div class="col-xs-6"><input type="text" id="name" placeholder="Enter your full name" required></div><br>
+                        <div class="col-xs-6"><label id="email" for="email">*E-mail:</label></div>
+                        <div class="col-xs-6"><input type="email" name="email" id="email" required placeholder="example@email.com"></div><br>
+                        <div class="col-xs-6"><label id="number" for="age">Age:</label></div>
+                        <div class="col-xs-6"><input type="number" name="age" id="number"></div>
 
+                    </div>
+                </form>
+    </div>
+    
 </body>
 
 </html>
