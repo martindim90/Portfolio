@@ -1,0 +1,95 @@
+body {
+    margin: auto;
+    background-color: #e9edb6;
+    font-size: 100%;
+}
+
+#title {
+    font-size: 2.8em;
+    text-align: center;
+    color: #269cd3;
+}
+
+h1 {
+    margin-block-start: 0.2em;
+    margin-block-end: 0.2em;
+}
+
+#exp-title {
+    margin: auto;
+    text-align: center;
+    padding-bottom: 40px;
+    font-style: italic;
+    font-size: 2em;
+    color: #347BB7;
+}
+
+#img-div,
+#info-div {
+    width: 50%;
+    float: left;
+}
+
+#image {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+#img-caption {
+    text-align: center;
+}
+
+#tribute-info {
+    background: #fdffe0;
+    margin: 1.2em;
+    padding: 5px;
+    border: 5px solid #347BB7;
+    font-size: 18px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 1px;
+    padding-bottom: 15px;
+    color: #269cd3;
+    font-size: 2.5em;
+}
+
+.first-text {
+    margin: 5px;
+    padding: 5px;
+}
+
+li {
+    padding: 2px;
+    line-height: 20px;
+}
+
+#end-list {
+    margin: 1.2em;
+    font-size: 1.5em;
+    font-family: 'Dancing Script', cursive;
+    color: #347BB7;
+}
+
+#end-line {
+    margin-bottom: 1em;
+    text-align: center;
+    font-size: 1.5em;
+    color: #596cea;
+    clear: both;
+}
+
+button {
+    background-color: #FDFFE0;
+    color: #6b56af;
+    border: 0.2em solid #347BB7;
+    font-size: 1em;
+    font-style: italic;
+}
+
+button:hover {
+    background-color: #6b56af;
+    color: white;
+}
