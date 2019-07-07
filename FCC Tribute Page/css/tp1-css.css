@@ -93,3 +93,10 @@ button:hover {
     background-color: #6b56af;
     color: white;
 }
+
+@media only screen and (max-width: 1023px) {
+    #img-div,
+    #info-div {
+        width: 100%;
+    }
+}
