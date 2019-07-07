@@ -1,0 +1,13 @@
+body {
+    background-color: #11273D;
+    background-image: url(https://wonderfulengineering.com/wp-content/uploads/2014/04/code-wallpaper-9.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+@media (min-width: 600px) {
+    body {
+        background-size: 100%;
+    }
+}
+
