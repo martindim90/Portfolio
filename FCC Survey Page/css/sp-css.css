@@ -70,6 +70,20 @@ textarea#comment {
     border-radius: 2px;
 }
 
+#submit {
+    padding: 15px 25px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 24px;
+    color: #fff;
+    background-color: #0685CC;
+    border-radius: 15px;
+    outline: none;
+}
+
+#submit:hover {
+    background-color: #FCCA5D;
+}
+
 #textarea:hover,
 #userSatisfaction:hover,
 #checkbox:hover {
