@@ -65,6 +65,9 @@ input#other {
 textarea#comment {
     margin: 0.5em;
     padding: 0.5em;
+    width: 50%;
+    border: 2px solid rgb(161, 135, 79);
+    border-radius: 2px;
 }
 
 #textarea:hover,
