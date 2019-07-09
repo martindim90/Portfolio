@@ -1,13 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP|Roboto+Slab&display=swap');
+
+html,
 body {
-    background-color: #11273D;
-    background-image: url(https://wonderfulengineering.com/wp-content/uploads/2014/04/code-wallpaper-9.jpg);
-    background-attachment: fixed;
-    background-size: 100% 100%;
+    background-color: #A9D7D1;
 }
 
-@media (min-width: 600px) {
-    body {
-        background-size: 100%;
+#form-outer {
+    border: 5px;
+    border-radius: 10px;
+    max-width: 65%;
+    margin: 0 auto;
+    background-color: #FAFAFA;
+    padding: 0.5em;
+}
+
+#title {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 2em;
+    text-align: center;
+ }
+
+#description {
+    margin: 1.2em 0 1.2em 0;
+    padding: 0.5em;
+    border: 4px;
+    border-radius: 17px;
+    background-color: #fcca5d;
+    font-size: 1.2em;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+
+input#name, input#email, input#age {
+    height: 20px;
+    width: 50%;
+    border: 2px solid rgb(161, 135, 79);
+    border-radius: 2px;
+}
+
+select#epx {
+    height: 2em;
+    width: 8em;
+    border: 2px solid rgb(161, 135, 79);
+    border-radius: 20px;
+}
+
+.row {
+    margin: 0.7em;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+ul {
+    margin-block-start: auto;
+    padding-left: unset;
+    list-style: none;
+}
+
+input#other {
+    height: 20px;
+    border: 2px solid rgb(161, 135, 79);
+    border-radius: 2px;
+}
+
+textarea#comment {
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+#textarea:hover,
+#userSatisfaction:hover,
+#checkbox:hover {
+    border: 4px;
+    border-radius: 17px;
+    background-color: beige;
+    animation-name: colorful;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+}
+
+@keyframes colorful {
+    0% {
+        background-color: #FAFAFA;
+    }
+
+    50% {
+        background-color: bisque;
+    }
+
+    100% {
+        background-color: beige
     }
 }
 
