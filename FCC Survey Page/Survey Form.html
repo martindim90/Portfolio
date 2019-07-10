@@ -20,28 +20,28 @@
             us improve Software Developing
         </p>
         <form id="survey-form">
-                <div id="name" class="row">
+                <div class="row">
                     <div class="col-xs-12 col-md-6 end-md">
                         <label id="name-label" for="name">* Name:</label>
                     </div>
                     <div class="col-xs-12 col-md-6">
-                        <input type="name" id="name" name="name" placeholder=" Enter your full name" required />
+                        <input type="text" id="name" name="name" placeholder=" Enter your full name" required />
                     </div>
                 </div>
-                <div id="email" class="row">
+                <div class="row">
                     <div class="col-xs-12 col-md-6 end-md">
                         <label id="email-label" for="email">* E-mail:</label>
                     </div>
                     <div class="col-xs-12 col-md-6">
-                        <input type="email" id="email" name="email" placeholder=" example@email.com" required />
+                        <input type="email" id="email" name="email" required placeholder=" example@email.com" />
                     </div>
                 </div>
-                <div id="number" class="row">
+                <div class="row">
                     <div class="col-xs-12 col-md-6 end-md">
-                        <label id="number-label" for="age">* Age:</label>
+                        <label id="number-label" for="number">* Age:</label>
                     </div>
                     <div class="col-xs-12 col-md-6">
-                        <input type="number" id="age" name="age" min="1" max="130" placeholder=" How old are you?" required />
+                        <input type="number" id="number" name="age" min="1" max="130" placeholder=" How old are you?" required />
                     </div>
                 </div>
                 <div id="dropdown" class="row">
@@ -49,7 +49,7 @@
                         <label for="exp">Which option best describes your current level of coding experience:</label>
                     </div>
                     <div class="col-xs-12 col-md-6">
-                        <select id="epx">
+                        <select id="exp">
                             <option disabled> Select an option</option>
                             <option value="novice"> Novice</option>
                             <option value="intermediate"> Intermediate</option>
@@ -66,19 +66,19 @@
                     <div class="col-xs-12 col-md-6">
                         <ul>
                             <li>
-                                <input type="radio" id="lovingit" name="radio buttons" value="1" />
+                                <input type="radio" id="lovingit" name="radio-buttons" value="1" />
                                 <label for="lovingit">Loving it</label></li>
                             <li>
-                                <input type="radio" id="soso" name="radio buttons" value="2" />
+                                <input type="radio" id="soso" name="radio-buttons" value="2" />
                                 <label for="soso">Kind of liking it</label></li>
                             <li>
-                                <input type="radio" id="ok" name="radio buttons" />
+                                <input type="radio" id="ok" name="radio-buttons" value="3"/>
                                 <label for="ok">It's OK</label></li>
                             <li>
-                                <input type="radio" id="dislike" name="radio buttons" value="3" />
+                                <input type="radio" id="dislike" name="radio-buttons" value="4" />
                                 <label for="dislike">Not enjoying it</label></li>
                             <li>
-                                <input type="radio" id="unhappy" name="radio buttons" value="4" />
+                                <input type="radio" id="unhappy" name="radio-buttons" value="5" />
                                 <label for="unhappy">Not enough to do any of it</label></li>
                         </ul>
                     </div>
@@ -102,9 +102,10 @@
                             <li><input type="checkbox" id="css" value="6" />
                                 <label for="css">CSS</label></li>
                             <li class="label-other">
-                                <input type="checkbox" id="other" />
+                                <input type="checkbox" id="other" value="7" />
                                 <label for="other">Other</label>
-                                <input type="text" id="other" name="other" placeholder=" please describe here..." /></li>
+                                <input type="text" id="other" name="other" placeholder=" please describe here..." />
+                            </li>
                         </ul>
                     </div>
 
