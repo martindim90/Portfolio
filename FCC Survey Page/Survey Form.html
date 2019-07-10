@@ -20,109 +20,110 @@
             us improve Software Developing
         </p>
         <form id="survey-form">
-                <div class="row">
-                    <div class="col-xs-12 col-md-6 end-md">
-                        <label id="name-label" for="name">* Name:</label>
-                    </div>
-                    <div class="col-xs-12 col-md-6">
-                        <input type="text" id="name" name="name" placeholder=" Enter your full name" required />
-                    </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-6 end-md">
+                    <label id="name-label" for="name">* Name:</label>
                 </div>
-                <div class="row">
-                    <div class="col-xs-12 col-md-6 end-md">
-                        <label id="email-label" for="email">* E-mail:</label>
-                    </div>
-                    <div class="col-xs-12 col-md-6">
-                        <input type="email" id="email" name="email" required placeholder=" example@email.com" />
-                    </div>
+                <div class="col-xs-12 col-md-6">
+                    <input type="text" id="name" name="name" placeholder=" Enter your full name" required />
                 </div>
-                <div class="row">
-                    <div class="col-xs-12 col-md-6 end-md">
-                        <label id="number-label" for="number">* Age:</label>
-                    </div>
-                    <div class="col-xs-12 col-md-6">
-                        <input type="number" id="number" name="age" min="1" max="130" placeholder=" How old are you?" required />
-                    </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-6 end-md">
+                    <label id="email-label" for="email">* E-mail:</label>
                 </div>
-                <div id="dropdown" class="row">
-                    <div class="col-xs-12 col-md-6 end-md">
-                        <label for="exp">Which option best describes your current level of coding experience:</label>
-                    </div>
-                    <div class="col-xs-12 col-md-6">
-                        <select id="exp">
-                            <option disabled> Select an option</option>
-                            <option value="novice"> Novice</option>
-                            <option value="intermediate"> Intermediate</option>
-                            <option value="advanced"> Advanced</option>
-                            <option value="Expert"> Expert</option>
-                        </select>
-                    </div>
+                <div class="col-xs-12 col-md-6">
+                    <input type="email" id="email" name="email" required placeholder=" example@email.com" />
                 </div>
-                <div id="userSatisfaction" class="row">
-                    <div class="col-xs-12 col-md-6 end-md">
-                        <label>Please choose an option to describe how much you enjoy
-                            programming?</label>
-                    </div>
-                    <div class="col-xs-12 col-md-6">
-                        <ul>
-                            <li>
-                                <input type="radio" id="lovingit" name="radio-buttons" value="1" />
-                                <label for="lovingit">Loving it</label></li>
-                            <li>
-                                <input type="radio" id="soso" name="radio-buttons" value="2" />
-                                <label for="soso">Kind of liking it</label></li>
-                            <li>
-                                <input type="radio" id="ok" name="radio-buttons" value="3"/>
-                                <label for="ok">It's OK</label></li>
-                            <li>
-                                <input type="radio" id="dislike" name="radio-buttons" value="4" />
-                                <label for="dislike">Not enjoying it</label></li>
-                            <li>
-                                <input type="radio" id="unhappy" name="radio-buttons" value="5" />
-                                <label for="unhappy">Not enough to do any of it</label></li>
-                        </ul>
-                    </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-6 end-md">
+                    <label id="number-label" for="number">* Age:</label>
                 </div>
-                <div id="checkbox" class="row">
-                    <div class="col-xs-12 col-md-6 end-md">
-                        <label>What laguages are you currently using?</label>
-                    </div>
-                    <div class="col-xs-12 col-md-6">
-                        <ul>
-                            <li><input type="checkbox" id="java" value="1" />
-                                <label for="java">Java</label></li>
-                            <li><input type="checkbox" id="c#" value="2" />
-                                <label for="c#">C#</label></li>
-                            <li><input type="checkbox" id="js" value="3" />
-                                <label for="js">JavaScript</label></li>
-                            <li><input type="checkbox" id="python" value="4" />
-                                <label for="python">Python</label></li>
-                            <li><input type="checkbox" id="html" value="5" />
-                                <label for="html">HTML</label></li>
-                            <li><input type="checkbox" id="css" value="6" />
-                                <label for="css">CSS</label></li>
-                            <li class="label-other">
-                                <input type="checkbox" id="other" value="7" />
-                                <label for="other">Other</label>
-                                <input type="text" id="other" name="other" placeholder=" please describe here..." />
-                            </li>
-                        </ul>
-                    </div>
+                <div class="col-xs-12 col-md-6">
+                    <input type="number" id="number" name="age" min="1" max="130" placeholder=" How old are you?"
+                        required />
+                </div>
+            </div>
+            <div id="dropdown" class="row">
+                <div class="col-xs-12 col-md-6 end-md">
+                    <label for="exp">Which option best describes your current level of coding experience:</label>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <select id="exp">
+                        <option disabled> Select an option</option>
+                        <option value="novice"> Novice</option>
+                        <option value="intermediate"> Intermediate</option>
+                        <option value="advanced"> Advanced</option>
+                        <option value="Expert"> Expert</option>
+                    </select>
+                </div>
+            </div>
+            <div id="userSatisfaction" class="row">
+                <div class="col-xs-12 col-md-6 end-md">
+                    <label>Please choose an option to describe how much you enjoy
+                        programming?</label>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <ul>
+                        <li>
+                            <input type="radio" id="lovingit" name="radio-buttons" value="1" />
+                            <label for="lovingit">Loving it</label></li>
+                        <li>
+                            <input type="radio" id="soso" name="radio-buttons" value="2" />
+                            <label for="soso">Kind of liking it</label></li>
+                        <li>
+                            <input type="radio" id="ok" name="radio-buttons" value="3" />
+                            <label for="ok">It's OK</label></li>
+                        <li>
+                            <input type="radio" id="dislike" name="radio-buttons" value="4" />
+                            <label for="dislike">Not enjoying it</label></li>
+                        <li>
+                            <input type="radio" id="unhappy" name="radio-buttons" value="5" />
+                            <label for="unhappy">Not enough to do any of it</label></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="checkbox" class="row">
+                <div class="col-xs-12 col-md-6 end-md">
+                    <label>What laguages are you currently using?</label>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <ul>
+                        <li><input type="checkbox" id="java" value="1" />
+                            <label for="java">Java</label></li>
+                        <li><input type="checkbox" id="c#" value="2" />
+                            <label for="c#">C#</label></li>
+                        <li><input type="checkbox" id="js" value="3" />
+                            <label for="js">JavaScript</label></li>
+                        <li><input type="checkbox" id="python" value="4" />
+                            <label for="python">Python</label></li>
+                        <li><input type="checkbox" id="html" value="5" />
+                            <label for="html">HTML</label></li>
+                        <li><input type="checkbox" id="css" value="6" />
+                            <label for="css">CSS</label></li>
+                        <li class="label-other">
+                            <input type="checkbox" id="other" value="7" />
+                            <label for="other">Other</label>
+                            <input type="text" id="other" name="other" placeholder=" please describe here..." />
+                        </li>
+                    </ul>
+                </div>
 
+            </div>
+            <div id="textarea" class="row">
+                <div class="col-xs-12 col-md-6 end-md">
+                    <label for="comment">Please tell us how we can improve software development?</label>
                 </div>
-                <div id="textarea" class="row">
-                    <div class="col-xs-12 col-md-6 end-md">
-                        <label for="comment">Please tell us how we can improve software development?</label>
-                    </div>
-                    <div class="col-xs-12 col-md-6">
-                        <textarea id="comment" rows="5" cols="50" placeholder="Please add you comments here..."></textarea>
-                    </div>
+                <div class="col-xs-12 col-md-6">
+                    <textarea id="comment" rows="5" cols="50" placeholder="Please add you comments here..."></textarea>
                 </div>
-                <div id="end-button" class="row center-md center-xs">
-                    <div class="col-xs-12 col-md-12">
-                        <button id="submit" type="submit">Submit</button>
-                    </div>
-                </div>        
+            </div>
+            <div id="end-button" class="row center-md center-xs">
+                <div class="col-xs-12 col-md-12">
+                    <button id="submit" type="submit">Submit</button>
+                </div>
+            </div>
         </form>
     </div>
 
