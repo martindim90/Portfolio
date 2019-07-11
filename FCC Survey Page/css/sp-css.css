@@ -119,9 +119,7 @@ textarea#comment {
     input#name, input#email, input#number {
         width: 90%;
     }
-
     #form-outer {
         max-width: 90%;
     }
 }
-
