@@ -9,7 +9,7 @@ html, body {
     max-width: 60%;
     margin: 0 auto;
     background-color: #FAFAFA;
-    padding: 0.5em;
+    padding: 25px;
 }
 
 #title {
@@ -39,12 +39,12 @@ input#name, input#email, input#number {
 }
 
 select#exp {
-    height: 2em;
-    width: 8em;
+    height: 20px;
     border: 1px solid rgb(161, 135, 79);
     border-radius: 5px;
     padding: 5px 7px;
     outline: none;
+    box-sizing: content-box;
 }
 
 .row {
