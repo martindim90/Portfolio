@@ -24,15 +24,13 @@ h1 {
     color: #347BB7;
 }
 
-#img-div,
-#info-div {
+#img-div, #info-div {
     width: 50%;
     float: left;
 }
 
 @media only screen and (max-width: 1023px) {
-    #img-div,
-    #info-div {
+    #img-div, #info-div {
         width: 100%;
     }
 }
@@ -100,4 +98,3 @@ button:hover {
     background-color: #6b56af;
     color: white;
 }
-
