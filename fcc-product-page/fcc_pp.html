@@ -4,7 +4,7 @@
 <head>
 
     <link rel="stylesheet" href="css/flexboxgrid.min.css" />
-    <link rel="stylesheet" href="css/pp-css.css" />
+    <link rel="stylesheet" href="css/pp-css.css" />    
 
     <title>Product Landing Page</title>
 
@@ -19,28 +19,29 @@
 
     <header id="header" class="wrapper">
         <div class="row">
-            <div class="col-xs-12 col-md-6">
+            <div class="col-xs-12 col-md-2 center-xs start-md">
                 <img id="header-img" src="img-logo/logo.png" alt="company logo" />
             </div>
-            <div class="col-xs-12 col-md-6">
+            <div class="col-xs-12 col-md-10">
                 <nav id="nav-bar">
-                    <ul>
-                        <li>
+                    <ul class="row around-xs">
+                        <li class="col-xs">
                             <a class="nav-link" href="#features">Features</a>
                         </li>
-                        <li>
+                        <li class="col-xs">
                             <a class="nav-link" href="#how-it-works">How it's Made</a>
                         </li>
-                        <li>
+                        <li class="col-xs">
                             <a class="nav-link" href="#pricing">Pricing</a>
                         </li>
                     </ul>
                 </nav>
             </div>
         </div>
+
     </header>
 
-    <div class="wrapper">
+    <div id="top-container" class="wrapper">
         <div class="row">
             <div class="col-xs-12 col-md-8 col-md-offset-2">
 
@@ -51,7 +52,10 @@
                             <form id="form" action="https://www.freecodecamp.com/email-submit">
                                 <input type="email" id="email" name="email" placeholder="Enter your email address"
                                     required />
-                                <input type="submit" id="submit" name="submit" value="Order Now" />
+                                <div class="submit">
+                                        <input type="submit" id="submit" name="submit" value="Order Now" />
+                                </div>
+                                
                             </form>
                         </div>
                     </div>

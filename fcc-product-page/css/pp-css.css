@@ -1,8 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
+
 body {
     margin: 0;
+    background: 100%;
     background-color: #EEEEEE;
 }
 
 .wrapper {
     padding: 0 16px;
+}
+
+#header {
+    position: fixed;
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #CF3D05;
+    background-image: url(back-img/lg-img.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: darkgrey;
+}
+
+#header-img {
+    width: 70px;
+    height: 60px;
+}
+
+.nav-link {
+    font-family: 'Russo One', sans-serif;
+    font-size: 20px;
+    color: #EEEEEE;
+    text-decoration: none;
+}
+
+#top-container {
+    padding-top: 100px;
+}
+
+#welcome {
+    text-align: center;   
+}
+
+.description {
+    padding: 2px 0 0 2px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 30px;
+}
+
+input#email {
+    height: 20px;
+    width: 100%;
+    max-width: 350px;
+    padding: 2px;
+    margin: 10px;
+}
+
+.submit {
+    padding: 5px;
+}
+
+input#submit {
+    padding: 15px 25px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+    color: #fff;
+    background-color: #9C4B25;
+    border-radius: 15px;
+    border: 4px solid #FBBD79;
+    outline: none;
+    cursor: pointer;
+}
+
+
+@media (max-width: 767px) {
+    #header {
+        background-image: url(back-img/xs-img.jpg)
+    }
+    #header-img {
+        width: 40px;
+        height: 30px;
+    }
+    #top-container {
+        padding-top: 105px;
+    }
 }
