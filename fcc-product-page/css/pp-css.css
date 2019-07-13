@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Literata&display=swap');
 
 body {
     margin: 0;
@@ -56,6 +57,7 @@ input#email {
     max-width: 350px;
     padding: 2px;
     margin: 10px;
+    outline: none;
 }
 
 .submit {
@@ -74,6 +76,47 @@ input#submit {
     cursor: pointer;
 }
 
+#features {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #9C4B25;
+    border-radius: 15px;
+}
+h2 {
+    font-family: "Literata", serif;
+    font-size: 35px;
+    margin: 16px 0 16px 0;
+    color: rgb(209, 106, 9);
+}
+
+.par-feat {
+    text-align: justify;
+    font-family: "Literata", serif;
+    font-size: 16px;
+}
+
+i {
+    color: #CF3D05;
+}
+
+#video {
+    max-width: 100%;
+    margin: 50px 0 50px 0;
+    border: 1px solid #9C4B25;
+    border-radius: 15px;
+}
+
+.pricing-inner {
+    text-align: center;
+    border: 1px solid #9C4B25;
+    border-radius: 15px;
+}
+
+.par-price {
+    background-color: darkslategrey;
+    border-bottom: 1px solid #CF3D05;
+    
+}
 
 @media (max-width: 767px) {
     #header {
@@ -85,5 +128,8 @@ input#submit {
     }
     #top-container {
         padding-top: 105px;
+    }
+    h2 {
+        text-align: center;
     }
 }
