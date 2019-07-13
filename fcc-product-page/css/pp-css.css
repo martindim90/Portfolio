@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Literata&display=swap');
-
+@import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
 body {
     margin: 0;
     background: 100%;
@@ -16,6 +16,7 @@ body {
     position: fixed;
     width: 100%;
     height: auto;
+    box-sizing: border-box;
     border-bottom: 2px solid #CF3D05;
     background-image: url(back-img/lg-img.jpg);
     background-position: center center;
@@ -37,8 +38,14 @@ body {
     text-decoration: none;
 }
 
+ul {
+    padding-left: 0;
+}
+
 #top-container {
+    margin: 0 auto;
     padding-top: 100px;
+    max-width: 1000px;
 }
 
 #welcome {
@@ -54,7 +61,7 @@ body {
 input#email {
     height: 20px;
     width: 100%;
-    max-width: 350px;
+    max-width: 300px;
     padding: 2px;
     margin: 10px;
     outline: none;
@@ -85,7 +92,7 @@ input#submit {
 h2 {
     font-family: "Literata", serif;
     font-size: 35px;
-    margin: 16px 0 16px 0;
+    margin: 16px 0;
     color: rgb(209, 106, 9);
 }
 
@@ -101,21 +108,45 @@ i {
 
 #video {
     max-width: 100%;
-    margin: 50px 0 50px 0;
+    margin: 50px 0;
     border: 1px solid #9C4B25;
     border-radius: 15px;
 }
 
 .pricing-inner {
+    margin: 20px 0;
     text-align: center;
     border: 1px solid #9C4B25;
     border-radius: 15px;
+    
 }
 
 .par-price {
-    background-color: darkslategrey;
-    border-bottom: 1px solid #CF3D05;
-    
+    margin-top: 0;
+    margin-bottom: 5px;
+    background-color: #151611;
+    border-radius: 15px 15px 0 0;
+    font-family: "Literata", serif;
+    font-size: 35px;
+    color: #CF3D05;
+}
+
+h3 {
+    font-family: "Literata", serif;
+    font-size: 30px;
+    margin: 5px 0;
+}
+
+ol {
+    list-style: none;
+    font-family: "Literata", serif;
+    font-size: 16px;
+}
+
+.select {
+    font-family: "Literata", serif;
+    border: none;
+    margin: 15px 0;
 }
 
 @media (max-width: 767px) {
