@@ -49,7 +49,7 @@ ul {
 }
 
 #welcome {
-    text-align: center;   
+    text-align: center;
 }
 
 .description {
@@ -89,6 +89,7 @@ input#submit {
     border: 1px solid #9C4B25;
     border-radius: 15px;
 }
+
 h2 {
     font-family: "Literata", serif;
     font-size: 35px;
@@ -120,7 +121,7 @@ i {
     margin-right: 0;
     text-align: center;
     border: 1px solid #9C4B25;
-    border-radius: 15px;   
+    border-radius: 15px;
 }
 
 .par-price {
@@ -153,11 +154,38 @@ ol {
     background-color: #9C4B25;
     font-family: "Literata", serif;
     font-size: 1em;
-    color:#fff;
+    color: #fff;
     border: none;
     margin: 15px 0;
     outline: none;
     cursor: pointer;
+    border: 1px solid #F6B672;
+}
+
+.select:hover {
+    background-color: #F6B672;
+    color: #CF3D05;
+    border: 1px solid #9C4B25;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 auto;
+    max-width: 1000px;
+    margin-top: 50px;
+    background-color: darkgrey;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+#tnc {
+    
+    
+}
+
+ul {
+    list-style: none;
 }
 
 @media (max-width: 767px) {
@@ -173,5 +201,4 @@ ol {
     h2 {
         text-align: center;
     }
-
 }
