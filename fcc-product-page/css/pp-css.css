@@ -23,7 +23,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-color: darkgrey;
+    background-color: rgb(48, 48, 48);
 }
 
 #header-img {
@@ -169,19 +169,40 @@ ol {
 }
 
 footer {
-    display: flex;
-    justify-content: flex-end;
     margin: 0 auto;
     max-width: 1000px;
     margin-top: 50px;
     background-color: darkgrey;
     box-sizing: border-box;
-    padding: 20px;
 }
 
-ul {
+footer > ul {
+    display: flex;
+    justify-content: flex-end;
     list-style: none;
+    padding: 10px;    
 }
+
+footer >ul >li {
+    padding: 0 10px 0 10px;
+    font-family: "Literata", serif;
+    font-size: 19px;
+    margin: 0;
+}
+
+footer > span {
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Russo One', sans-serif;
+    font-size: 15px;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #9C4B25;
+}
+
 
 @media (max-width: 767px) {
     #header {
