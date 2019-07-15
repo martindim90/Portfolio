@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Literata&display=swap');
+@import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
+body {
+    margin: 0;
+    background: 100%;
+    background-color: #EEEEEE;
+}
+
+.wrapper {
+    padding: 0 16px;
+}
+
+#header {
+    position: fixed;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    border-bottom: 2px solid #CF3D05;
+    background-image: url(back-img/lg-img.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgb(48, 48, 48);
+}
+
+#header-img {
+    width: 70px;
+    height: 60px;
+}
+
+.nav-link {
+    font-family: 'Russo One', sans-serif;
+    font-size: 20px;
+    color: #EEEEEE;
+    text-decoration: none;
+}
+
+ul {
+    padding-left: 0;
+}
+
+#top-container {
+    margin: 0 auto;
+    padding-top: 100px;
+    max-width: 1000px;
+}
+
+#welcome {
+    text-align: center;
+}
+
+.description {
+    padding: 2px 0 0 2px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 30px;
+}
+
+input#email {
+    height: 20px;
+    width: 100%;
+    max-width: 300px;
+    padding: 2px;
+    margin: 10px;
+    outline: none;
+}
+
+.submit {
+    padding: 5px;
+}
+
+input#submit {
+    padding: 15px 25px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+    color: #fff;
+    background-color: #9C4B25;
+    border-radius: 15px;
+    border: 4px solid #FBBD79;
+    outline: none;
+    cursor: pointer;
+}
+
+input#submit:hover {
+    background-color: #F6B672;
+    color: #CF3D05;
+    border: 4px solid #9C4B25;
+
+}
+
+#features {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #9C4B25;
+    border-radius: 15px;
+}
+
+h2 {
+    font-family: "Literata", serif;
+    font-size: 35px;
+    margin: 16px 0;
+    color: rgb(209, 106, 9);
+}
+
+.par-feat {
+    text-align: justify;
+    font-family: "Literata", serif;
+    font-size: 16px;
+}
+
+i {
+    color: #CF3D05;
+}
+
+#video {
+    max-width: 100%;
+    margin: 50px 0;
+    border: 1px solid #9C4B25;
+    border-radius: 15px;
+}
+
+.pricing-inner {
+    display: inline-block;
+    min-width: 300px;
+    margin-top: 20px;
+    margin-right: 0;
+    text-align: center;
+    border: 1px solid #9C4B25;
+    border-radius: 15px;
+}
+
+.par-price {
+    max-width: 100%;
+    height: 50px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    background-color: #151611;
+    border-radius: 15px 15px 0 0;
+    font-family: "Literata", serif;
+    font-size: 35px;
+    color: #CF3D05;
+}
+
+h3 {
+    font-family: "Literata", serif;
+    font-size: 30px;
+    margin: 5px 0;
+}
+
+ol {
+    list-style: none;
+    font-family: "Literata", serif;
+    font-size: 16px;
+    padding: 0;
+}
+
+.select {
+    height: 40px;
+    background-color: #9C4B25;
+    font-family: "Literata", serif;
+    font-size: 1em;
+    color: #fff;
+    border: none;
+    margin: 15px 0;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #F6B672;
+    border-radius: 15px;
+}
+
+.select:hover {
+    background-color: #F6B672;
+    color: #CF3D05;
+    border: 1px solid #9C4B25;
+}
+
+footer {
+    margin: 0 auto;
+    max-width: 1000px;
+    margin-top: 50px;
+    background-color: darkgrey;
+    box-sizing: border-box;
+}
+
+footer > ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 10px;    
+}
+
+footer >ul >li {
+    padding: 0 10px 0 10px;
+    font-family: "Literata", serif;
+    font-size: 19px;
+    margin: 0;
+}
+
+footer > span {
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Russo One', sans-serif;
+    font-size: 15px;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #9C4B25;
+}
+
+
+@media (max-width: 767px) {
+    #header {
+        background-image: url(back-img/xs-img.jpg)
+    }
+    #header-img {
+        display: none;
+    }
+    #top-container {
+        padding-top: 105px;
+    }
+    h2 {
+        text-align: center;
+    }
+}

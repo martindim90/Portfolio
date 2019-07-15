@@ -3,11 +3,176 @@
 
 <head>
 
+    <link rel="stylesheet" href="css/flexboxgrid.min.css" />
+    <link rel="stylesheet" href="css/pp-css.css" />
+
+    <title>Product Landing Page</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="https://kit.fontawesome.com/93352de15f.js"></script>
+
 </head>
 
 <body>
-    
- 
+
+    <header id="header" class="wrapper">
+        <div class="row">
+            <div class="col-xs-12 col-md-2 center-xs start-md">
+                <img id="header-img" src="img-logo/logo.png" alt="company logo" />
+            </div>
+            <div class="col-xs-12 col-md-10">
+                <nav id="nav-bar">
+                    <ul class="row around-xs">
+                        <li class="col-xs">
+                            <a class="nav-link" href="#features">Features</a>
+                        </li>
+                        <li class="col-xs">
+                            <a class="nav-link" href="#how-it-works">How it's Made</a>
+                        </li>
+                        <li class="col-xs">
+                            <a class="nav-link" href="#pricing">Pricing</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+
+    <div id="top-container" class="wrapper">
+        <div class="row">
+            <div class="col-xs">
+
+                <section id="welcome">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h1 class="description">Welcome to the site of Moria's Knives Maker</h1>
+                            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                                <input type="email" id="email" name="email" placeholder="Enter your email address"
+                                    required />
+                                <div class="submit">
+                                    <input type="submit" id="submit" name="submit" value="Order Now" />
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="features">
+                    <div class="row middle-xs">
+                        <div class="col-xs-12 col-md-2 center-xs">
+                            <i class="fas fa-check fa-3x"></i>
+                        </div>
+                        <div class="col-xs-12 col-md-10">
+                            <h2>Premium Materials</h2>
+                            <p class="par-feat">All of our blades are build from the toughest materials in Middle-Earth.
+                                Handles are
+                                customly made with precision. Our producs make sure you
+                                can take upon an army of orcs on your own.</p>
+                        </div>
+                    </div>
+                    <div class="row middle-xs">
+                        <div class="col-xs-12 col-md-2 center-xs">
+                            <i class="fas fa-truck fa-3x"></i>
+                        </div>
+                        <div class="col-xs-12 col-md-10">
+                            <h2>Express Delivery</h2>
+                            <p class="par-feat">We make sure you recieve your products as soon as the elfs finish making
+                                them. If a
+                                situation occurs where you are not entirely happy with your product, we will send an
+                                eagle to
+                                collect and return the item/s for a full refund</p>
+                        </div>
+                    </div>
+                    <div class="row middle-xs">
+                        <div class="col-xs-12 col-md-2 center-xs">
+                            <i class="fas fa-shield-alt fa-3x"></i>
+                        </div>
+                        <div class="col-xs-12 col-md-10">
+                            <h2>Quality Assurance</h2>
+                            <p class="par-feat">All our products have been put to the test against Stone Giants prior to
+                                official
+                                release. For every purchase we make sure there are no damages or faults and that your
+                                purchase will
+                                shine trough the battles.</p>
+                        </div>
+                    </div>
+
+                </section>
+
+                <section id="how-it-works">
+                    <div class="row middle-xs center-xs">
+                        <div class="col-xs-12">
+                            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/6A0D0O_kapE"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="pricing">
+                    <div class="row center-xs">
+                        <div class="col-xs-12 col-md-4">
+                            <div class="pricing-inner">
+                                <p class="par-price">Goblin Slayer</p>
+                                <h3>$597</h3>
+                                <ol>
+                                    <li>Light Weight</li>
+                                    <li>Easy to Handle</li>
+                                    <li>Compact</li>
+                                    <button type="button" class="select">SELECT</button>
+                                </ol>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-4">
+                            <div class="pricing-inner">
+                                <p class="par-price">Orc Cleaver</p>
+                                <h3>$897</h3>
+                                <ol>
+                                    <li>Middle Weight</li>
+                                    <li>Steady Grip</li>
+                                    <li>Slasher</li>
+                                    <button type="button" class="select">SELECT</button>
+                                </ol>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-4">
+                            <div class="pricing-inner">
+                                <p class="par-price">Troll Destroyer</p>
+                                <h3>$1097</h3>
+                                <ol>
+                                    <li>Heavy Weight</li>
+                                    <li>Only for Superhumans</li>
+                                    <li>Tool for Mass Destruction</li>
+                                    <button type="button" class="select">SELECT</button>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <footer class="wrapper">
+        <ul>
+            <li>
+                <a href="#!">Privacy</a>
+            </li>
+            <li>
+                <a href="#!">Terms</a>
+            </li>
+            <li>
+                <a href="#!">Contact</a>
+            </li>
+        </ul>
+        <span>Copyright 2019, Moria's Knives Maker</span>
+
+    </footer>
 </body>
 
 </html>
