@@ -83,6 +83,13 @@ input#submit {
     cursor: pointer;
 }
 
+input#submit:hover {
+    background-color: #F6B672;
+    color: #CF3D05;
+    border: 4px solid #9C4B25;
+
+}
+
 #features {
     margin-top: 20px;
     padding: 20px;
@@ -160,6 +167,7 @@ ol {
     outline: none;
     cursor: pointer;
     border: 1px solid #F6B672;
+    border-radius: 15px;
 }
 
 .select:hover {
