@@ -6,20 +6,138 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link rel="stylesheet" href="css/bootstrap-grid.min.css" />
+   
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    
     <link rel="stylesheet" href="css/tdp-css.css" />
 
     <title>FCC-Technical Documentation Page</title>
 
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <!--<script src="js/bootstrap.bundle.min.js"></script>-->
 
 </head>
 
 <body>
+
     <div class="container-fluid">
+
         <div class="row">
-            <main class="col-md-9 order-2" id="main-doc">
+
+            <nav id="navbar-mobile" class="col-12 navbar sticky-top navbar-light d-md-none">
+            
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                    aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            
+                    <h1 class="navbar-brand">JS Documentation</h1>
+            
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="#Introduction" class="nav-link">Introduction</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#What_you_should_already_know" class="nav-link">What you should already know</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#JavaScript_and_Java" class="nav-link">JavaScript and Java</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Hello_world" class="nav-link">Hello World</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Variables" class="nav-link">Variables</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Declaring_variables" class="nav-link">Declaring variables</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Variable_scope" class="nav-link">Variable scope</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Global_variables" class="nav-link">Global variables</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Constants" class="nav-link">Constants</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Data_types" class="nav-link">Data types</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#if...else_statement" class="nav-link">if...else statement</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#while_statement" class="nav-link">while statement</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Function_declarations" class="nav-link">Function declarations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Reference" class="nav-link">Reference</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="col-12 col-md-3 col-xl-2 navigation-column d-md-block d-none" role="navigation">
+
+                <nav id="navbar-desktop" class="navbar navbar-light">
+                    
+                    <header>
+                        <h1 class="navbar-brand">JS Documentation</h1>
+                    </header>
+                
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="#Introduction" class="nav-link">Introduction</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#What_you_should_already_know" class="nav-link">What you should already know</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#JavaScript_and_Java" class="nav-link">JavaScript and Java</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Hello_world" class="nav-link">Hello World</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Variables" class="nav-link">Variables</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Declaring_variables" class="nav-link">Declaring variables</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Variable_scope" class="nav-link">Variable scope</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Global_variables" class="nav-link">Global variables</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Constants" class="nav-link">Constants</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Data_types" class="nav-link">Data types</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#if...else_statement" class="nav-link">if...else statement</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#while_statement" class="nav-link">while statement</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Function_declarations" class="nav-link">Function declarations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Reference" class="nav-link">Reference</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <main class="col-12 col-md-9 col-xl-10" id="main-doc">
 
                 <section id="Introduction" class="main-section">
                     <header>
@@ -460,20 +578,20 @@
                 </section>
 
             </main>
-
-            <nav class="col-md-3 order-1" id="navbar">
-                <header>
-                    <h1>
-                        JS Documentation
-                    </h1>
-                </header>
-            
-            </nav>
-
         </div>
     </div>
-        
-    
+
+    <!--<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>-->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 
 </body>
 
