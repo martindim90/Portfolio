@@ -1,8 +1,3 @@
-@media (min-width: 768px) {
-    .navigation-column {
-        border-right: 2px solid rgb(193, 193, 193);
-    }
-}
 
 #navbar-mobile, 
 .navigation-column {
@@ -10,7 +5,6 @@
 }
 
 /* desktop nav */
-
 
 .data {
     list-style: none;
@@ -33,3 +27,17 @@ h2 {
     font-size: 1.5em;
     color: #2998e8;
 }
+
+@media (min-width: 768px) {
+    .navigation-column {
+        border-right: 2px solid rgb(193, 193, 193);
+    }
+}
+
+@media (max-width: 768px) { 
+    h2 {
+        padding-top: 60px;
+    }
+}
+
+/* added media for mobile to make the <a> tags visible */
