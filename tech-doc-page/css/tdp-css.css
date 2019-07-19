@@ -6,6 +6,30 @@
 
 /* desktop nav */
 
+#navbar header,
+#navbar .navbar-nav {
+    position: fixed;
+    top: 40px;
+    left: 40px;
+}
+
+#navbar .navbar-nav {
+    top: 80px;
+    max-width: 150px;
+    overflow: auto;
+}
+
+#navbarToggler {
+    overflow-y: auto;
+    max-height: 200px;                                                 
+}
+
+#main-doc {
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
 .data {
     list-style: none;
 }
@@ -25,12 +49,16 @@ article {
 
 h2 {
     font-size: 1.5em;
-    color: #2998e8;
+    color: hsl(205, 81%, 54%);
 }
 
 @media (min-width: 768px) {
     .navigation-column {
         border-right: 2px solid rgb(193, 193, 193);
+    }
+
+    .navbar-brand {
+        white-space: unset;
     }
 }
 
@@ -40,4 +68,9 @@ h2 {
     }
 }
 
+@media (min-width: 1600px) {
+    #navbar .navbar-nav {
+        max-width: unset;
+    }
+}
 /* added media for mobile to make the <a> tags visible */
