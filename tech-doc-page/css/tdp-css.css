@@ -61,16 +61,18 @@ h2 {
         white-space: unset;
     }
 }
+/* this helps the h1 text on the sidebar to not pop out when resizing the screen */
 
 @media (max-width: 768px) { 
     h2 {
         padding-top: 60px;
     }
 }
+/* added media for mobile to make the <a> tags visible */
 
 @media (min-width: 1600px) {
     #navbar .navbar-nav {
         max-width: unset;
     }
 }
-/* added media for mobile to make the <a> tags visible */
+/* this fixed an issue, where the main-doc overlaps the fixed sidebar, before the breakpoint for small devices */
