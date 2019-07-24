@@ -1,0 +1,25 @@
+.navigation {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 15px;
+    padding: 10px;
+}
+
+.home {
+    min-height: 100vh;
+}
