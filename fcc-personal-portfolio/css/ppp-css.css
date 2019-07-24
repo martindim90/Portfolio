@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+
 .navigation {
     text-align: center;
 }
@@ -19,24 +21,34 @@
     padding: 10px;
 }
 
+.logo {
+    color: #339AF0;
+    font-family: 'Permanent Marker', cursive;
+}
+
 .home {
     min-height: 100vh;
 }
 
+.projects-section {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
 #projects {
-    display: block;
+    text-align: center; 
 }
 
 .project-img {
     display: block;
-    max-width: 100%;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 380px;
     height: auto;
 }
 
 .project-wrapper {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px,1fr));
-    grid-gap: 20px 20px;
-    max-width: 1000px;
-    
+    grid-gap: 20px 20px;    
 }
