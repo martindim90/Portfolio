@@ -1,246 +1,259 @@
-@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP|Poppins&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP|Poppins&display=swap");
 
 body {
-    background-color: #215677;
-    font-size: 30px;
-    font-weight: 400;
+  background-color: #215677;
+  font-size: 30px;
+  font-weight: 400;
 }
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .bg-img {
-    display: block;
-    position: fixed;
-    height: 100vh;
-    width: 100vw;
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  display: block;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container {
-    padding-left: 0;
-    padding-right: 0;
-    position: relative;
-    min-width: 300px;
-    max-width: 1440px;
-    width: 100%;
-    margin: 0 auto;
-    background: url(https://i.pinimg.com/originals/a1/a9/8d/a1a98d4ca1c581439c7576ee82723c89.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    box-shadow: 0 0 35px #0E6782
-
+  padding-left: 0;
+  padding-right: 0;
+  position: relative;
+  min-width: 300px;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  background: url(https://i.pinimg.com/originals/a1/a9/8d/a1a98d4ca1c581439c7576ee82723c89.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  box-shadow: 0 0 35px #0e6782;
 }
 
 #navbar {
-    position: fixed;
-    background-color: #BE3144;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 10;
+  position: fixed;
+  background-color: #be3144;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
 }
 
 .logo {
-    
-    text-align: center;
-    font-size: 22px;
-    font-family: 'Permanent Marker', cursive;
-    color: #F0F0F0;
-    padding: 2px 20px;
-    margin: 0 20px;
+  text-align: center;
+  font-size: 22px;
+  font-family: "Permanent Marker", cursive;
+  color: #f0f0f0;
+  padding: 2px 20px;
+  margin: 0 20px;
 }
 
 .logo > p {
-    margin: 0 3px;
+  margin: 0 3px;
 }
 
 .nav-list {
-    display: flex;
-    list-style: none;  
-    margin: 0;
+  display: flex;
+  list-style: none;
+  margin: 0;
 }
 
 li.nav-item {
-    display: block;
-    padding: 20px 50px;
+  display: block;
+  padding: 20px 50px;
 }
 
 li.nav-item > a {
-    color: #F0F0F0;
-    font-size: 20px;
-    font-family: 'Poppins', sans-serif;
-    text-decoration: none;
+  color: #f0f0f0;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
 }
 
 li.nav-item:hover {
-    background:#53a7ea;
+  background: #53a7ea;
 }
 
-
 .home {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;  
-    padding-bottom: 20px;  
-    text-align: center;  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding-bottom: 20px;
+  text-align: center;
 }
 
 h1 {
-    color: #F0F0F0;
-    font-size: 70px;
-    font-family: 'Noto Sans JP', sans-serif;
+  color: #f0f0f0;
+  font-size: 70px;
+  font-family: "Noto Sans JP", sans-serif;
 }
 
 .home > p {
-    color: #F0F0F0;
-    font-style: italic;
-    font-size: 40px;
-    font-family: 'Noto Sans JP', sans-serif;
+  color: #f0f0f0;
+  font-style: italic;
+  font-size: 40px;
+  font-family: "Noto Sans JP", sans-serif;
 }
 
 #projects {
-    background-color: #1D4456;
+  background-color: #1d4456;
 }
 
 .projects-section > h2 {
-    text-align: center;
-    color: #F0F0F0;
-    font-size: 30px;
-    font-weight: 600;
-    font-family: 'Noto Sans JP', sans-serif;
-    border-bottom: 2px solid #F0F0F0;
-    padding-top: 90px;  
-    padding-bottom: 40px;
+  text-align: center;
+  color: #f0f0f0;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Noto Sans JP", sans-serif;
+  border-bottom: 2px solid #f0f0f0;
+  padding-top: 90px;
+  padding-bottom: 40px;
 }
 
 .project-img {
-    display: block;
-    max-width: 400px;
-    object-fit: scale-down;
-    border: 2px solid #BE3144;
-    border-radius: 2px;
+  display: block;
+  max-width: 400px;
+  object-fit: scale-down;
+  border: 2px solid #be3144;
+  border-radius: 2px;
 }
 
 img.project-img:hover {
-    box-shadow:
-                1px 1px rgb(16, 52, 68),
-                2px 2px rgb(16, 52, 68),
-                3px 3px rgb(16, 52, 68),
-                4px 4px rgb(16, 52, 68),
-                5px 5px rgb(16, 52, 68);
-        -webkit-transform: translateX(-5px);
-        transform: translateX(-5px);
+  box-shadow: 1px 1px rgb(16, 52, 68), 2px 2px rgb(16, 52, 68),
+    3px 3px rgb(16, 52, 68), 4px 4px rgb(16, 52, 68), 5px 5px rgb(16, 52, 68);
+  -webkit-transform: translateX(-5px);
+  transform: translateX(-5px);
 
-        -webkit-transform: scale(1.009);
-        -ms-transform: scale(1.009);
-        transform: scale(1.009);
+  -webkit-transform: scale(1.009);
+  -ms-transform: scale(1.009);
+  transform: scale(1.009);
 }
 
 .projects-wrapper {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    grid-gap: 15px;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 16px;
-    border-radius: 3px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 15px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px;
+  border-radius: 3px;
 }
 
-#project-title {  
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 25px 40px;  
-    text-decoration: none; 
-    
+#project-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 40px;
+  text-decoration: none;
 }
 
 i {
-    opacity: 0.4;
+  opacity: 0.4;
 }
 
 .btn {
-    margin-top: 15px;
-    width: 400px;
+  margin-top: 15px;
+  width: 400px;
 }
 
-.btn:hover  {
-    background-color: #BE3144;
-    color: #F0F0F0;
+.btn:hover {
+  background-color: #be3144;
+  color: #f0f0f0;
 }
 
 #contact {
-    background-color: #303841;
+  background-color: #303841;
 }
 
 .contact-links > a {
-    outline: none;
-    text-decoration: none;
+    transform: perspective(1) scaleZ(1) rotateY(0deg);
+    transition: transform 0.5s ease;
+    perspective: 300px; 
+    transform-style: preserve-3d;
+}
+
+.contact-links > a:hover, :focus {
+  text-decoration: none;
+  color: #f0f0f0;
+  box-shadow: inset 0 0 0 5px #53a7ea;
+  border-radius: 10px;
+
+  transform: translate3d(42px, 42px, 42px);
+  transform: perspective(500px) scaleZ(2) rotateY(45deg);
 }
 
 .contact-btn {
-    font-size: 20px;
-    padding: 10px 20px;
-    color: #F0F0F0;
+  font-size: 20px;
+  padding: 10px 20px;
+  color: #f0f0f0;
 }
 
 .contact-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 75vh;
 }
 
 .contact-line {
-    color: #F0F0F0;
-    font-size: 50px;
+  color: #f0f0f0;
+  font-size: 50px;
 }
 
 .contact-line > p {
-    font-size: 25px;
-    font-style: italic;
+  font-size: 25px;
+  font-style: italic;
 }
 
 .contact-links {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
+footer {
+    background-color: #be3144;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 25px;
+    color: #f0f0f0;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
 
-
-
+}
 
 @media only screen and (max-width: 622px) {
-    .logo {
-        display: none;
-    }
+  .logo {
+    display: none;
+  }
 
-    #navbar {
-        display: flex;
-        justify-content: space-around;
-    }
+  #navbar {
+    display: flex;
+    justify-content: space-around;
+  }
 
-    .nav-list {
-        padding: 0px;
-    }
+  .nav-list {
+    padding: 0px;
+  }
+
+  footer {
+    justify-content: center;
+  }
 }
