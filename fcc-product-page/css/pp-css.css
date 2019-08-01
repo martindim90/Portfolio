@@ -35,6 +35,7 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
     border-bottom: 2px solid #CF3D05;
     background-image: url(back-img/lg-img.jpg);
