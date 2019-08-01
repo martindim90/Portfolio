@@ -1,11 +1,52 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+}
+
 body {
     margin: auto;
     background-color: #e9edb6;
     font-size: 100%;
 }
 
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    margin: 0 auto;
+}
+
+#img-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#image {
+    display: block;
+    object-fit: contain;
+    width: 100%;
+}
+
+#img-caption {
+    text-align: center;
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+#info-div {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
 #title {
-    font-size: 2.8em;
+    font-size: 2em;
     text-align: center;
     color: #269cd3;
 }
@@ -20,81 +61,83 @@ h1 {
     text-align: center;
     padding-bottom: 40px;
     font-style: italic;
-    font-size: 2em;
+    font-size: 1.8em;
     color: #347BB7;
-}
-
-#img-div, #info-div {
-    width: 50%;
-    float: left;
-}
-
-@media only screen and (max-width: 1023px) {
-    #img-div, #info-div {
-        width: 100%;
-    }
-}
-
-#image {
-    max-width: 100%;
-    display: block;
-    margin: 0 auto;
-}
-
-#img-caption {
-    text-align: center;
 }
 
 #tribute-info {
     background: #fdffe0;
-    margin: 1.2em;
     padding: 5px;
     border: 5px solid #347BB7;
     font-size: 18px;
 }
 
+ul {
+    list-style: none;
+    padding: 15px;
+}
+
 h2 {
     text-align: center;
     margin-top: 1px;
-    padding-bottom: 15px;
+    padding: 0 20px;
     color: #269cd3;
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 .first-text {
-    margin: 5px;
     padding: 5px;
 }
 
 li {
-    padding: 2px;
-    line-height: 20px;
+    padding: 2px 0;
 }
 
 #end-list {
-    margin: 1.2em;
-    font-size: 1.5em;
+    margin: 10px;
+    font-size: 24px;
     font-family: 'Dancing Script', cursive;
     color: #347BB7;
 }
 
 #end-line {
-    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 3px 0;
+    padding: 10px;
     text-align: center;
     font-size: 1.5em;
     color: #596cea;
-    clear: both;
+}
+
+#end-line hr {
+    margin-bottom: 5px;
 }
 
 button {
+    padding: 5px;
     background-color: #FDFFE0;
     color: #6b56af;
     border: 0.2em solid #347BB7;
+    border-radius: 5px;
     font-size: 1em;
     font-style: italic;
+    cursor: pointer;
 }
 
 button:hover {
     background-color: #6b56af;
     color: white;
+}
+
+.footer {
+    margin: 15px 0 5px 0;
+}
+
+@media only screen and (max-width: 1060px) {
+    .container {
+        grid-template-columns: none;
+        grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
+    }
 }
