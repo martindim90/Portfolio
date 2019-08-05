@@ -57,7 +57,7 @@ h1 {
 }
 
 #exp-title {
-    margin: auto;
+    margin: 0 auto 16px auto;
     text-align: center;
     padding-bottom: 40px;
     font-style: italic;
