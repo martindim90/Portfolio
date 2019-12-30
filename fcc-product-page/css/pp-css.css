@@ -176,6 +176,21 @@ ol {
     border: 1px solid #9C4B25;
 }
 
+.accordion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.accordion p {
+    display: none;
+}
+
+.accordion .firstItem {
+    display: block;
+}
+
 footer {
     margin: 0 auto;
     max-width: 1000px;

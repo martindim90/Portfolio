@@ -11,8 +11,7 @@
 
     <title>Product Landing Page</title>
 
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <script src="https://kit.fontawesome.com/93352de15f.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 </head>
 
@@ -159,6 +158,17 @@
         </div>
     </div>
 
+    <div class="accordion wrapper">
+        <h2>Start</h2>
+        <p class="firstItem active">Start stuff</p>
+
+        <h2>Start 2</h2>
+        <p>Start 2 stuff</p>
+
+        <h2>Start 3</h2>
+        <p>Start 3 stuff</p>
+    </div>
+
     <footer class="wrapper">
         <ul>
             <li>
@@ -174,6 +184,27 @@
         <span>Copyright 2019, Moria's Knives Maker</span>
 
     </footer>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="https://kit.fontawesome.com/93352de15f.js"></script>
+
+    <script>
+        $(document).ready( () => {
+            $( ".accordion h2" ).click(function() {
+                $( this ).next().slideDown(1000, function() {
+                   $(this).addClass("active");
+                })
+
+                $( '.accordion .active' ).slideUp(200, function() {
+                   $(this).removeClass("active");
+                })
+
+
+            });
+        })
+    </script>
+    
 </body>
 
+    
 </html>
