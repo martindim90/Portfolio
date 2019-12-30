@@ -1,9 +1,29 @@
+
+
 #navbar-mobile,
 .navigation-column {
   background-color: #e3f2fd;
 }
 
 /* desktop nav */
+.main-section {
+  position: relative;
+  border-top: 52px solid transparent;
+  margin: -30px 0 0;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+}
+
+
+.main-section:before {
+  content: "";
+   position: absolute;
+   top: -2px;
+   left: 0;
+   right: 0;
+   border-top: 2px solid #ccc;
+}
 
 #navbar header,
 #navbar .navbar-nav {
@@ -30,8 +50,6 @@
 }
 
 #main-doc {
-  padding: 20px;
-  margin-top: 20px;
   margin-bottom: 100px;
 }
 
@@ -70,7 +88,7 @@ h2 {
 
 @media (max-width: 768px) {
   h2 {
-    padding-top: 60px;
+    padding-top: 30px;
   }
 }
 /* added media for mobile to make the <a> tags visible */
